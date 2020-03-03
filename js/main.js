@@ -10,17 +10,17 @@ function HandleOnClick(obj) {
         {
             case "BBBButton":
                 vidsource.src = "BigBuckBunny.mp4"
-                vidsource.type = 'video/mp4; pip=true;'
+                vidsource.type = 'video/mp4; pip=false;'
                 break;
             
             case "EDButton":
                 vidsource.src = "car_20130125_18.mp4"
-                vidsource.type = 'video/mp4; pip=true;'
+                vidsource.type = 'video/mp4; pip=false;'
                 break;
                 
             case "GDButton":
                 vidsource.src = "eye.mp4";
-                vidsource.type = 'video/mp4; pip=true;'
+                vidsource.type = 'video/mp4; pip=false;'
                 break;
         }
         vid_elm.load();
